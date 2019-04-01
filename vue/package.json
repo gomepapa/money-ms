@@ -1,0 +1,19 @@
+{
+  "name": "money-ms-vue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.5",
+    "@vue/cli-service": "^3.5.3",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
