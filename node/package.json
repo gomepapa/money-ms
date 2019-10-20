@@ -5,7 +5,15 @@
   "scripts": {
     "start": "node ./bin/www"
   },
+  "browserslist": [
+    "last 2 chrome versions",
+    "last 2 Firefox versions",
+    "last 2 safari versions",
+    "last 2 Edge versions",
+    "ie 11"
+  ],
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "cookie-parser": "^1.4.4",
     "debug": "~2.6.9",
     "ejs": "~2.5.7",
@@ -13,5 +21,16 @@
     "http-errors": "~1.6.2",
     "morgan": "~1.9.0",
     "oracledb": "^3.1.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.5",
+    "csswring": "^7.0.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "express-generator": "^4.16.1",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "postcss-flexbugs-fixes": "^4.1.0"
   }
 }
